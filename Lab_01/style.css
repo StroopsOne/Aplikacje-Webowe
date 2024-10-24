@@ -1,0 +1,56 @@
+#autor{
+    color:rgb(111, 67, 235)
+}
+
+
+#Tabela{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+#Tabela td, #Tabela th{
+    border: 2px solid black;
+    padding: 3px;
+}
+
+
+.boxes{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    
+
+}
+#box1{
+    background-color: aqua;
+    display: inline-block;
+
+
+
+}
+#box2{
+    background-color: rgb(85, 182, 58);
+    display: inline-block;
+    margin-right: calc(100% - 300px);
+}
+#box3{
+    background-color: rgba(49, 39, 155, 0.699);
+    display: inline-block;
+    background-image: url("adobestock_wf837_1259.jpg");
+    background-size: cover;
+
+}
+#box4{
+    background-color: rgb(168, 51, 51);
+    display: inline-block;
+
+
+}
+#box5{
+    background-color: rgb(228, 238, 116);
+    display: inline-block;
+}
+
+#obrazek{
+    margin: 0px;
+    padding: 0px;
+}
