@@ -1,0 +1,30 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.contact-conteiner{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-inputs{
+    width: 400;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    border-radius: 50px;
+}
+button{
+    padding:15px;
+    border-radius: 30px;
+    background-color: orange;
+}

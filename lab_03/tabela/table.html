@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamiczna tabela produktów</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <div class="controls">
+        <input type="text" id="filterInput" placeholder="Wpisz frazę do filtrowania">
+        <select id="sortSelect">
+            <option value="original">Oryginalna kolejność</option>
+            <option value="asc">Rosnąco</option>
+            <option value="desc">Malejąco</option>
+        </select>
+    </div>
+    <div id="tableContainer"></div>
+
+    <script src="table.js"></script>
+</body>
+</html>

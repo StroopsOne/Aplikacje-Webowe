@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+aside{
+    padding: 10px;
+    width:20%;
+    float: left;
+}
+section{
+    padding: 10px;
+    width:40%;
+    float: left;
+}
+article{
+        padding: 10px;
+        width:40%;
+        float: left;
+}
+
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}

@@ -1,0 +1,25 @@
+canvas { 
+    background-color: #000;
+    display: block;
+    margin: 0 auto;
+    cursor: none;
+}
+.game-over {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+}
+.btn{
+    font-size: 40px;
+    padding: 15px;
+    background-color: red;
+}

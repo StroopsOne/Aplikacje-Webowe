@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Random Password Generator</h1>
+    <div class="conteiner">
+        <input class="textinput" id="minlength" type="number" max="64" min="8" placeholder="min length"><br>
+        <input class="textinput" id="maxlength" type="number" max="64" min="8" placeholder="max length"><br>
+        <input class="checkbox" id="bigLetters" type="radio">
+        <label for="bigLetters">Big letters</label><br>
+        <input class="checkbox" id="specialSigns" type="radio">
+        <label for="specialSigns">Special signs</label><br>
+        <button type="submit" id="submitBtn">Sumbit</button>
+        <script src="passGen.js"></script>
+    </div>
+</body>
+</html>
